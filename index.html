@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+      </header>
+      <section class="hero">
+        <img src="./images/hero-mobile.jpg" alt="hero-image" />
+      </section>
+      <main>
+        <div class="wrapper">
+          <h1 class="heading"><span>we're</span> coming soon</h1>
+          <p class="heading-text">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+
+          <form id="form" action="" method="get" accept-charset="utf-8">
+            <input
+              id="email"
+              name="email"
+              type="text"
+              placeholder="Email Address"
+              value="" />
+            <div>
+              <img
+                id="error-icon"
+                src="./images/icon-error.svg"
+                alt="error-icon" />
+              <button class="btn" type="submit">
+                <img src="./images/icon-arrow.svg" alt="submit-arrow" />
+              </button>
+            </div>
+            <p id="error">Please provide a valid email</p>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
