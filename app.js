@@ -10,7 +10,7 @@ btn.addEventListener("click", (e) => {
       email.value
     )
   ) {
-    email?.classList.remove("error")
+    email.classList.remove("error")
     errIcon.classList.remove("error")
     errP.classList.remove("error")
     return true
